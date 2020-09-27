@@ -1,0 +1,9 @@
+7. 判断下列哪些是C语言的关键字？
+(a) for
+(b) If
+(c) main
+(d) printf
+(e) while
+
+答:
+(a), (e) 是 C 语言中的关键字.

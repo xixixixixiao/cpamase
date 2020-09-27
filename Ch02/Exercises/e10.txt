@@ -1,0 +1,25 @@
+10. 在dweight.c程序（ 2.4节）中，哪些空格是必不可少的？
+
+答:
+
+#include <stdio.h>
+
+int main(void)
+{
+  int height, length, width, volume, weight;
+  height = 8;
+  length = 12;
+  width = 10;
+  volume = height * length * width;
+  weight = (volume + 165) / 166;
+  printf("Dimensions: %dx%dx%d\n", length, width, height);
+  printf("Volume (cubic inches): %d\n", volume);
+  printf("Dimensional weight (pounds): %d\n", weight);
+  return 0;
+}
+
+1. 指令与 main 函数之间的空白换行不可少.
+2. main 函数与返回类型之间的空白不可少.
+3. 变量 height 与其类型 int 之间的空白不可少.
+4. printf 函数中的的字符串中的空白不可少.
+5. return 语句与其返回值之间的空白不可少.
