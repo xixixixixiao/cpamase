@@ -1,0 +1,11 @@
+5. 判断下列C语言标识符哪些是不合法的？
+(a) 100_bottles
+(b) _100_bottles
+(c) one__hundred__bottles
+(d) bottles_by_the_hundred_
+
+答:
+(a) 不合法, 标识符不能以数字开头.
+(b) 合法.
+(c) 合法.
+(d) 合法.
